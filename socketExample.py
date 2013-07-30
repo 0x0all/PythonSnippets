@@ -6,11 +6,13 @@ from socket import *
 import time
 #Settings
 host = ''
+# host = '10.164.206.1'
+host = '10.164.227.215'
 port = 29862
 # port = 5001
 addr = (host, port)
 buffSize = 4096/2
-timeout = .01
+timeout = 5.01
 
 #Setup
 server = socket(AF_INET, SOCK_STREAM)
